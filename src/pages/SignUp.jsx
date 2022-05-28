@@ -67,9 +67,6 @@ function SignUp() {
           <div className="row">
             <div className="col-lg-6 form-section">
               <div className="form-inner">
-                <a href="login-38.html" className="logo">
-                  <img src="assets/img/logos/logo-2.png" alt="logo" />
-                </a>
                 <h3>Create An Account</h3>
                 <form onSubmit={onSubmit}>
                   <div className="form-group form-box">
