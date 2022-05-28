@@ -50,7 +50,7 @@ function SignIn() {
 					<div className="row">
 						<div className="col-lg-6 form-section">
 							<div className="form-inner">
-								<h3>Sign Into Your Account</h3>
+								<h3>Welcome Back!</h3>
 								<form onSubmit={onSubmit}>
 									<div className="form-group form-box">
 										<input
@@ -77,7 +77,7 @@ function SignIn() {
 									
 									<div className="form-group clearfix">
 										<button type="submit" className="btn-md btn-theme w-100">
-											Sign Up
+											Log In
 										</button>
 									</div>
 									<div className="extra-login clearfix">
