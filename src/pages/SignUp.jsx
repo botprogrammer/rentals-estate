@@ -104,27 +104,6 @@ function SignUp() {
                       onChange={onChange}
                     />
                   </div>
-                  {/* <div className="checkbox form-group form-box">
-                    <div className="checkbox clearfix">
-                      <div className="form-check checkbox-theme">
-                        <input
-                          className="form-check-input"
-                          type="checkbox"
-                          defaultValue=""
-                          id="rememberMe"
-                        />
-                        <label
-                          className="form-check-label"
-                          htmlFor="rememberMe"
-                        >
-                          I agree to the
-                          <a href="#" className="terms">
-                            terms of service
-                          </a>
-                        </label>
-                      </div>
-                    </div>
-                  </div> */}
                   <div className="form-group clearfix">
                     <button type="submit" className="btn-md btn-theme w-100">
                       Sign Up
@@ -136,12 +115,12 @@ function SignUp() {
                 </form>
                 <OAuth />
 
-                <Link to="/sign-in" className="registerLink">
-                  Sign In Instead
-                </Link>
+                
                 <div className="clearfix" />
                 <p>
-                  Already a member? <a href="login-38.html">Login here</a>
+                  Already a member? <a><Link to="/sign-in" className="registerLink">
+                  Log in here
+                </Link></a>
                 </p>
               </div>
             </div>
